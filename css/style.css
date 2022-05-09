@@ -1,0 +1,85 @@
+.nav-link {
+    width: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+section.container {
+    width: 60%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    justify-content: flex-start;
+    border: 1px solid lightseagreen;
+    margin-top: 20px;
+    border-radius: 6px;
+    
+    
+}
+form.FORMAJOUTER {
+    width: 90%;
+}
+form input , label {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2px;
+
+}
+
+form input[type='submit'].btn-primary {
+    width: 11rem;
+    margin: 17px 0 0 0;
+}
+
+form input[value="Dynamic Content"] {
+    width: 35%;
+    background-color: #6610f2;
+}
+
+.flex > .btn-danger {
+    margin-right: 45px;
+    
+}
+
+.flex .btn {
+    padding: 0.5rem 1.1rem;
+}
+
+form.operations {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+form.operations .btn {
+    width: calc(100%/3);
+}
+
+.trs td  {
+    padding-top: 30px;
+}
+
+.trs .flex {
+    padding-top: 3px;
+}
+
+.container.mr-auto {
+    width: 20rem;
+}
+
+.container.mr-auto > h4.btn.btn-info {
+    width: 14rem;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 10px;
+    cursor: none;
+}

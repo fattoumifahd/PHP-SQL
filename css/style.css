@@ -39,9 +39,18 @@ form input[type='submit'].btn-primary {
     margin: 17px 0 0 0;
 }
 
-form input[value="Dynamic Content"] {
-    width: 35%;
+div.parent {
+    margin: 0 auto;
+    width: 20%;
+}
+
+div.parent input[value="Dynamic Content"] {
     background-color: #6610f2;
+    width: 11rem;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 10px;
+    cursor: auto ;
 }
 
 .flex > .btn-danger {

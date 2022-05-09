@@ -12,9 +12,10 @@
 <body class=''>
     <?php include_once 'include/navbar.php'; ?>
     <?php include_once 'include/database.php'; ?>
-    <form method="post" style='border:none;'>
-        <input type="submit" class="btn btn-info" value="Dynamic Content" name='submit'>
-    </form>
+        <div class="parent">
+            <input type="buuton" class="btn btn-info" value="Dynamic Content" name='submit'>
+        </div>
+
     <?php
         include_once 'indexs/index.php';
     ?>
